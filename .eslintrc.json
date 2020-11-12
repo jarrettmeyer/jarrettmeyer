@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard",
+    "@vue/typescript/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "quotes": ["error", "double"],
+    "semi": "off",
+    "@typescript-eslint/semi": ["error", "always"]
+  }
+}

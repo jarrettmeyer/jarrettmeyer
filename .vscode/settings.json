@@ -1,0 +1,6 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "git.ignoreLimitWarning": true
+}
